@@ -1,0 +1,25 @@
+Strict
+1.0.1
+
+Range
+>
+>=
+<
+<=
+!=
+- [1.0-2.0 ~ >=1.0 <=2.0]
+
+Multi range 
+' ',',' ~ logic And
+'||' ~ logic And
+1.0.* 1.0<=v<1.1
+
+Wildcard
+* [1.0.* ~ >=1.0 <1.1]
+
+Next significant
+Tilde version
+~ [~1.2 ~ >=1.2 <2.0.0] [~1.2.3 ~ >=1.2.3 < 1.3.0]
+
+Caret version
+^ [^1.2.3 ~ >=1.2.3 <2.0.0]

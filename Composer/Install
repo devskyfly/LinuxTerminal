@@ -1,0 +1,9 @@
+Linux
+
+Local 
+#####
+cp composer.phar in project folder
+
+Global
+######
+mv composer.phar /usr/local/bin/composer
