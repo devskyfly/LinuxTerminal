@@ -54,7 +54,7 @@ git diff --cached покажет проиндексированные измен
 
 no index x-x no commit
 
-git commmit -v - добавляет в комментарий список изменений
+git commit -v - добавляет в комментарий список изменений
 
 git commit -m - позволяет создать commit из командной строки
 
@@ -104,7 +104,7 @@ short
 full
 fuller
 
-git log --pretty=foramt :"%k %k"
+git log --pretty=format :"%k %k"
 
 %h - сокращение hash
 %an - author name
