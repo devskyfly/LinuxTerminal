@@ -4,7 +4,7 @@ man hier
 rm -rf name - рекурсивно удаляет все файлы в указанной папке
 
 //Архивация
-tar -czvf dump.tar.gz *
+tar -czvf dump.tar.gz .
 tar -xvf file.tar
 
 //Дисковое пространство
