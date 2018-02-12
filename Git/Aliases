@@ -1,0 +1,8 @@
+#Sample
+git config --global alias.cmd_alias 'cmd'
+
+#History
+git config --global alias.cmd_alias 'cmd'
+
+#Branches
+git config --global alias.vbr 'log --graph --oneline --decorate --all'
