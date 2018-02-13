@@ -1,0 +1,9 @@
+#Редирект с get параметрами
+
+RewriteCond %{QUERY_STRING} ^SECTION_ID=51&ELEMENT_ID=1046$
+RewriteRule ^region/uc/etp/detail\.php$ /region/uc/etp/detail.php?SECTION_ID=1200&ELEMENT_ID=7301 [R=301,L]
+
+#Редирект с get параметрами на индексную страницу
+  
+RewriteCond %{QUERY_STRING} ^SECTION_ID=1200&ELEMENT_ID=7288$
+RewriteRule ^$ /? [R=301,L] N.B ? здесь стои умышлено, чтобы отбросить get параметры переданные ранее
