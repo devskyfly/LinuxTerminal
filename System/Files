@@ -2,7 +2,7 @@
 man hier
 //Манипуляция с файлами
 rm -rf name - рекурсивно удаляет все файлы в указанной папке
-
+ 
 //Архивация
 tar -czvf dump.tar.gz .
 tar -xvf file.tar
